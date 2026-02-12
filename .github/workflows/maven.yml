@@ -9,10 +9,13 @@
 name: Java CI with Maven
 
 on:
+release:
+type: created
+workflow_dispatch: #comment
   push:
-    branches: [ "feature" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "feature" ]
+    branches: [ "master" ]
 
 jobs:
   build:
