@@ -11,7 +11,7 @@ package week5.projectfaaiz;
 public class ProjectFaaiz {
 
     public static void main(String[] args) {
-        System.out.println("Faaiz Ali Ahmad");
+        System.out.println("YO!! Faaiz");
     }
      public static void main1(String[] args) {
         System.out.println("Feature Branch Again!! ");
